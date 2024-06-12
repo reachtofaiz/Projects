@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    margin-top: -140px;
+}
+.statement{
+    margin-top: 20vh;
+    font-family:'Qwitcher Grypen', cursive;;
+    font-size:50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#clock { 
+    border: 1px solid rgb(187, 215, 221);
+    display: flexbox;
+    padding: 18px;
+    width: 20vh;
+    background: rgb(219, 105, 35);
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px black;
+    font-size: larger;
+    margin-left: 8vh;
+}

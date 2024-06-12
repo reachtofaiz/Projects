@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color - Changer</title>
+</head>
+<style>
+    .text{
+        box-sizing: border-box;
+        font-size: 10vh;
+        margin-top: 15vh;
+        margin-left: 35vh;
+        font-weight:400;
+        margin-top: 20vh;
+    }
+    .button{
+        box-sizing: border-box;
+        display:inline-flex;
+        padding: 50px 50px;
+        border: 3px solid black;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        border-radius: 8px;
+        margin-top: 30vh;
+        margin-left: 25vh;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 10vh;
+    }
+</style>
+<body style="color: rgb(0, 0, 0); background-color: #212121; zoom: 70%;" >
+    <div class="text">
+        Color Button Switcher
+    </div>
+    <div class="box">
+        <div class="button" id="grey" style="background-color: grey;"></div>
+        <div class="button" id="orange" style="background-color: orange;"></div>
+        <div class="button" id="skyblue" style="background-color: skyblue;"></div>
+        <div class="button" id="brown" style="background-color: brown;"></div>
+    </div>
+    <script src="color_changer.js"></script>
+</body>
+</html>

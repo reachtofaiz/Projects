@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="BMI.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRuhj-WSYNVmLACpmauqXBEmOqQABCC1j4NyOk1HO_ZDDenGdJdRUdMvTzWWYtHzuyi0c&usqp=CAU" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div id="height">
+                Height in cm :
+                <p><input type="text" id="heightinput"></p>
+            </div>
+            <div id="weight">
+                Weight in kg :
+                <p><input type="text" id="weightinput"></p>
+            </div>
+            <button>Calculate</button>
+
+            <div class="result" id="result"></div>
+
+            <h1 style="color: antiquewhite; margin-left: 4vh;margin-top: 3vh;">Guidance :</h1>
+            <p><strong style="color: antiquewhite">Under Weight :</strong> Less than 18.6</p>
+            <p><strong style="color: antiquewhite">Normal Weight :</strong> 18.6 to 24.9</p>
+            <p><strong style="color: antiquewhite">Over Weight :</strong> Greater than 24.9</p>
+        </form>
+    </div>
+</body>
+<script src="BMI.js"></script>
+
+</html>
